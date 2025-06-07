@@ -1,0 +1,40 @@
+
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.direct > a {
+    padding: 5px 0 5px 8px;
+    color: black;
+    font-weight: bold;
+    transition: margin ease-in-out 200ms;
+}
+
+.direct>a:hover {
+    margin-left: 5px;
+    color: #BB2323;
+}
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    
+}
